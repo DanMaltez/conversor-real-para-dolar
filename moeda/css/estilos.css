@@ -1,0 +1,60 @@
+body{
+    height: 100vh;
+    background-image: url('/images/background.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.central{
+    width: 500px;
+    background: rgba(255, 255, 255, 0.897);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 4px 2px 15px black;
+}
+
+.central h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.central input{
+    width: 80%;
+    height: 40px;
+    border: none;
+    background: white;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    outline: none;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 18px;
+
+}
+
+.central button{
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background: black;
+    color: rgb(255, 167, 4);
+    font-family: Verdana, Geneva, Tahoma, sans-serifa;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-left: 6px;
+}
+
+.central button:hover{
+    transform: translateY(1px);
+    background: rgb(255, 167, 4);
+    color: black;
+}
+
+.central p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+    text-align: center;
+}
